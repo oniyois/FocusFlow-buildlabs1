@@ -319,7 +319,7 @@ footer{
 
 
 /* Tablet */
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .features-container {
     display: flex;
     flex-direction: column;
@@ -456,7 +456,29 @@ footer{
 .footer-social{
   gap: 12px;
 }
+}
 
+@media (min-width: 768px) and (max-width: 1023px) {
+
+  .navbar {
+    padding: 20px 30px;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 30px;
+    margin-right: 0;
+  }
+
+  .cta-btn {
+    margin-left: 20px;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+}
 
 
 /* Desktop */
